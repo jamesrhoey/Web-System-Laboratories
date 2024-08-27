@@ -1,0 +1,27 @@
+
+
+.headings h1{
+    display: inline;
+     margin-right:20px;
+}
+.headings nav{
+    display: inline;
+}
+.btn{
+    text-decoration: none;
+    border: 3px solid #7A1CAC;
+    padding: 5px;
+    border-radius: 10px;
+    color: #AD49E1;
+}
+
+.btn:hover{
+    background-color: #2E073F;
+}
+@font-face {
+    font-family: NewAmsterdam-Regular;
+    src: url('NewAmsterdam-Regular.ttf');
+}
+body{
+    font-family: NewAmsterdam-Regular;
+}
