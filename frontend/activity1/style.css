@@ -1,0 +1,69 @@
+
+
+.headings h1{
+    display: inline;
+     margin-right:20px;
+}
+.headings nav{
+    display: inline;
+
+}
+.btn{
+    text-decoration: none;
+    border: 3px solid #7A1CAC;
+    padding: 5px;
+    border-radius: 10px;
+    color: #AD49E1;
+}
+
+.btn:hover{
+    background-color: #2E073F;
+}
+@font-face {
+    font-family: NewAmsterdam-Regular;
+    src: url('NewAmsterdam-Regular.ttf');
+}
+body{
+    font-family: NewAmsterdam-Regular;
+}
+.hero-1{
+    background-image: url('assets/moon.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#carouselExampleDark{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 70px;
+    border: 1px solid rgb(23, 23, 23);
+}
+.c{
+    height: 600px;
+}
+.head{
+    color: white;
+}
+
+.about-image {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.d-flex {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+
+.text-container {
+    flex: 1; 
+}
