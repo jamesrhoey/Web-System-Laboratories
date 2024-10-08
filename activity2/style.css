@@ -1,0 +1,29 @@
+body{
+  
+}
+.add{
+    
+    margin-top: 40px;
+    margin-left: 300px;
+    height: auto;
+    max-width:  300px;
+    border-radius: 20px;
+   
+}
+.main{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+  
+    
+}
+.add-song{
+    margin-top: 10px;
+   
+    
+}
+.form{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
