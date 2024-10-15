@@ -1,22 +1,12 @@
 body{
-  
+    margin: 0;
+    padding: 0;
 }
 .add{
-    
-    margin-top: 40px;
-    margin-left: 300px;
-    height: auto;
-    max-width:  300px;
-    border-radius: 20px;
-   
+    border: 1px solid;
+    width: 300px;
 }
-.main{
-    margin-top: 50px;
-    padding-bottom: 30px;
-    border-radius: 20px;
-  
-    
-}
+
 .add-song{
     margin-top: 10px;
    
@@ -26,4 +16,12 @@ body{
     padding: 10px;
     border: 1px solid;
     border-radius: 10px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    border: 1px solid white;
 }
