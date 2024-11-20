@@ -14,11 +14,8 @@ const productSchema = new Schema({
     ingredients: {
         type: String,
         required: true
-    },
-    image: {
-        type: String,
-        required: true
     }
+    
 }, { timestamps: true})
 
 module.exports = mongoose.model('Product', productSchema)

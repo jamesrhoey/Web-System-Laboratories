@@ -26,11 +26,11 @@ const getProduct = async (req, res) =>{
 
 //create a workout
 const createProduct = async (req, res) =>{
-    const { name, price, ingridients, image } = req.body;
+    const { productName, price, ingredients, image } = req.body;
     
     //add doc to db
     try {
-        const product = new Product({ name,price, ingridients, image});
+        const product = new Product({ productName,price, ingredients, image});
         await product.save(); 
         res.status(200).json(product);
     } catch (error) {

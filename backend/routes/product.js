@@ -4,7 +4,7 @@ const {
     getProducts,
     getProduct,
     deleteProduct,
-    updateProduct
+    updateProduct,
 } = require('../controllers/productController')
 
 
@@ -14,7 +14,7 @@ router.get('/', getProducts)
 
 router.get('/:id',getProduct)
 
-router.post('/', createProduct)
+router.post('/new', createProduct)
 
 
 router.delete('/:id', deleteProduct)
