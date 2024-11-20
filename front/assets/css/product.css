@@ -1,0 +1,33 @@
+.product-card {
+    background-color: #1e3a1e;
+    border: none;
+    border-radius: 8px;
+    width: 100%; 
+    max-width: 250px; 
+}
+
+.product-card img {
+    height: 150px; 
+    object-fit: cover; 
+}
+
+.btn-add-product {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-add-product:hover {
+    background-color: #218838;
+}
+
+.product-card .card-body {
+    padding: 10px; 
+}
+
+.product-card .card-title {
+    font-size: 1rem; 
+}
+
+.product-card .card-text {
+    font-size: 0.875rem; 
+}
