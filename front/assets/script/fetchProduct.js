@@ -35,8 +35,8 @@ const createCardBody = (productName, price, ingredients) => {
     h6.classList.add('card-text', 'text-white');
     p.classList.add('card-text', 'text-white');
 
-    h5.innerHTML = productName;
-    h6.innerHTML = `$${price}`; 
+    h5.innerHTML = `Product: ${productName}`;
+    h6.innerHTML = `Price:   ₱${price}`; 
     p.innerText = `Ingredients: ${ingredients}`;
 
     div.append(h5);
