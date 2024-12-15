@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.add{
+    border: 1px solid;
+    width: 300px;
+}
+
+.add-song{
+    margin-top: 10px;
+   
+    
+}
+.form{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    border: 1px solid white;
+}
